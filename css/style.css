@@ -69,11 +69,6 @@ table {
   src: url(../../font/Roboto-Bold.ttf);
   font-style: normal;
 }
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(../../font/Roboto-Light.ttf);
-  font-style: normal;
-}
 body {
   height: 100vh;
   background-color: #383E4B;
@@ -177,7 +172,7 @@ body {
   height: calc(100% - 60px);
   position: absolute;
   background: url("../img/png/firefly2.png") right -4% top 30%/70px 48px no-repeat, url("../img/png/firefly.png") left 2% top 25%/100px 70px no-repeat, url("../img/png/firefly.png") left -3% bottom 30%/60px 45px no-repeat, url("../img/png/firefly.png") left 0 bottom -1%/100px 80px no-repeat, url("../img/png/firefly2.png") right 2% bottom 15%/90px 70px no-repeat;
-  z-index: 950;
+  z-index: 825;
 }
 .block-present .block-active {
   width: 100%;
@@ -233,6 +228,7 @@ body {
 }
 .block-present .info-section {
   margin: 45px 0 20px 0;
+  z-index: 850;
 }
 .block-present .info-section .main-section {
   height: 500px;

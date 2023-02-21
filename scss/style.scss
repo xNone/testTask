@@ -125,7 +125,7 @@ body {
                     url('../img/png/firefly.png') left -3% bottom 30% / 60px 45px no-repeat,
                     url('../img/png/firefly.png') left 0 bottom -1% / 100px 80px no-repeat,
                     url('../img/png/firefly2.png') right 2% bottom 15% / 90px 70px no-repeat;
-        z-index: 950;
+        z-index: 825;
     }
 
     .block-active {
@@ -181,7 +181,8 @@ body {
     }
 
     .info-section {
-        margin: 45px 0 20px 0;
+        margin: 45px 0 20px 0; 
+        z-index: 850;
 
         .main-section {
             height: 500px;
